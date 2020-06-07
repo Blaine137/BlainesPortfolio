@@ -11,11 +11,11 @@
 
 :root{
     --bg-color1: #242038;
-    --bg-color2: #CAC4CE;
+    --bg-color2: black;
     --font-color1: #F7ECE1;
-    --font-color2: black;
+    --font-color2: #CAC4CE;
     --accent-color1: #725AC1;
-    --accent-color2: #8D86C9
+    --accent-color2: #8D86C9;
 }
 
 #wrapper{
@@ -34,14 +34,14 @@
     height: 100vh;
 }
 
-.sectionOneContent{
-    color: var(--font-color1);
+#sectionOneContent{
     height: 100vh;
     position: relative;
     top: 5%;
 }
 
 h1{
+    color: var(--font-color1);
     font-weight: bold;
     text-align: center;
     position: relative;
@@ -49,9 +49,13 @@ h1{
 }
 
 h4{
+    color: var(--font-color2);
     text-align: center;
     position: relative;
     top: 35%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #nextPageButton{
@@ -66,6 +70,24 @@ h4{
 }
 
 #nextPageButton:hover{
-    background-color: var(--font-color1) !important;
+    background-color: transparent;
+    color: var(--font-color1);
+    border-color: var(--font-color1);
+}
+
+#nextPageButton:focus{
+    color: var(--font-color1);
+    border-color: var(--font-color1) !important;
+    box-shadow: none;
     
+}
+
+#sectionTwoContent{
+    height: 100vh;
+    background-color: var(--bg-color1);
+}
+
+h2{
+    color: var(--font-color2);
+    text-align: center;
 }
