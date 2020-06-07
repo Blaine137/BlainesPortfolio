@@ -1,0 +1,26 @@
+/*
+    COLORS:
+
+    Dark Purple: #242038
+    Slate Blue: #725AC1
+    Middle Blue Purple: #8D86C9
+    Lavender Gray: #CAC4CE
+    Linen: #F7ECE1
+
+*/
+
+#wrapper{
+    padding: 0 ; 
+    margin: 0;
+}
+
+.sectionOne{
+    background-image: url('images/portfolioBackground.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
