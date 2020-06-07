@@ -1,7 +1,7 @@
 /*
     COLORS:
 
-    Dark Purple: #242038
+    Dark Purple: #242038  rgb(36, 32, 56)  rgba(36, 32, 56, 1)
     Slate Blue: #725AC1
     Middle Blue Purple: #8D86C9
     Lavender Gray: #CAC4CE
@@ -9,18 +9,63 @@
 
 */
 
+:root{
+    --bg-color1: #242038;
+    --bg-color2: #CAC4CE;
+    --font-color1: #F7ECE1;
+    --font-color2: black;
+    --accent-color1: #725AC1;
+    --accent-color2: #8D86C9
+}
+
 #wrapper{
-    padding: 0 ; 
+    padding: 0; 
     margin: 0;
 }
 
-.sectionOne{
-    background-image: url('images/portfolioBackground.gif');
-    background-size: cover;
+#sectionOne{
+    background: linear-gradient(rgba(36,32,56,0.6), rgba(36,32,56,0.6)), url('images/portfolioBackground.gif');
+    background-size: 100% 100%;
     background-position: center;
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     padding: 0;
     margin: 0;
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
+}
+
+.sectionOneContent{
+    color: var(--font-color1);
+    height: 100vh;
+    position: relative;
+    top: 5%;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+h4{
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+#nextPageButton{
+    color: var(--accent-color2);
+    display: block;
+    position: relative;
+    top: 45%;
+    margin: 0 auto;
+    text-align: center;
+    border-color: var(--accent-color2);
+    width: 15%;
+}
+
+#nextPageButton:hover{
+    background-color: var(--font-color1) !important;
+    
 }
