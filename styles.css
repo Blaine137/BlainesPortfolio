@@ -24,6 +24,7 @@ h1, h5{
 
 h4{
     color: var(--accent-color1);
+    font-weight: bold;
 }
 
 p{
@@ -32,6 +33,7 @@ p{
 
 header{
     background-image: linear-gradient(to right, var(--accent-color1), var(--accent-color2));
+    /* margin-bottom: 0 !important; */
 }
 
 .row-content{
@@ -39,3 +41,26 @@ header{
     border-bottom: 1px ridge;
     min-height: 200px;
 }
+
+.about-me{
+    width: 80%; /* on bigger devices width needs to be 50%*/
+    line-height: 2;
+    text-indent: 1rem;
+}
+
+.resumeBtn{
+    background-color: var(--bg-color1);
+    color: var(--font-color1);
+}
+
+.resumeBtn:hover{
+    background-color: var(--accent-color2);
+    transform: scale(1.2);
+}
+
+.resumeBtn:focus{
+    background-color: var(--accent-color2) !important;
+    box-shadow: none !important;
+}
+
+
