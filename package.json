@@ -1,0 +1,24 @@
+{
+  "name": "blainesportfolio",
+  "version": "1.0.0",
+  "description": "my portfolio to show off my projects",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blaine137/BlainesPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blaine137/BlainesPortfolio/issues"
+  },
+  "homepage": "https://github.com/Blaine137/BlainesPortfolio#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
