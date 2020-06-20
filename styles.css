@@ -22,7 +22,7 @@ h1, h5{
     color: var(--font-color1);
 }
 
-h4{
+h4, .card-title{
     color: var(--accent-color1);
     font-weight: bold;
 }
@@ -48,15 +48,15 @@ header{
     text-indent: 1rem;
 }
 
-.resumeBtn{
-    background-color: var(--bg-color1);
+.resumeBtn, .viewSiteBtn{
+    background-color: var(--accent-color2);
     color: var(--font-color1);
     -moz-transition: background-color .5s ease-in-out;
 }
 
-.resumeBtn:hover{
+.resumeBtn:hover, .viewSiteBtn:hover{
     color: var(--font-color1);
-    background-color: var(--accent-color2);
+    background-color: var(--bg-color1);
     transform: scale(1.2);
     
 }
