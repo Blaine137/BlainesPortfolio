@@ -36,7 +36,7 @@ header{
     /* margin-bottom: 0 !important; */
 }
 
-.navbar{
+nav{
     background-color: var(--accent-color2);
 }
 
