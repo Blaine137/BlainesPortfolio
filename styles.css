@@ -40,6 +40,10 @@ nav{
     background-color: var(--accent-color2);
 }
 
+footer{
+    background-image: linear-gradient(to right, var(--accent-color2), var(--accent-color1));
+}
+
 .row-content{
     padding: 50px 0;
     border-bottom: 1px ridge;
