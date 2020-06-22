@@ -50,28 +50,44 @@ footer{
     min-height: 200px;
 }
 
+.nav-link{
+    color: var(--font-color1);
+}
+
+.nav-link:hover{
+    color: var(--font-color2);
+}
+
 .about-me{
     width: 80%; /* on bigger devices width needs to be 50%*/
     line-height: 2;
     text-indent: 1rem;
 }
 
-.resumeBtn, .viewSiteBtn{
+.resumeBtn, .viewSiteBtn, .sendFeedbackBtn{
     background-color: var(--accent-color2);
     color: var(--font-color1);
     -moz-transition: background-color .5s ease-in-out;
+    border: none;
 }
 
-.resumeBtn:hover, .viewSiteBtn:hover{
+.resumeBtn:hover, .viewSiteBtn:hover, .sendFeedbackBtn:hover{
     color: var(--font-color1);
     background-color: var(--bg-color1);
     transform: scale(1.2);
     
 }
 
-.resumeBtn:focus{
+.resumeBtn:focus, .sendFeedbackBtn:focus{
     background-color: var(--accent-color2) !important;
     box-shadow: none !important;
 }
 
+.contact-link{
+    color: var(--font-color1);
+}
+
+.contact-link:hover{
+    color: var(--font-color2);
+}
 
