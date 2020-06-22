@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Blaine137/BlainesPortfolio#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
