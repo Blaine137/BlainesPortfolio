@@ -103,6 +103,20 @@ footer{
     box-shadow: none !important;
 }
 
+.card-header{
+    background-color: var(--accent-color1);
+}
+
+.accBtn{
+    color: var(--font-color1);
+}
+
+.accBtn:hover, .accBtn:focus{
+    color: var(--font-color1);
+    box-shadow: none !important;
+}
+
+
 .contact-link{
     color: var(--font-color1);
 }
