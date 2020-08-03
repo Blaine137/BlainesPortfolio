@@ -84,6 +84,23 @@ footer{
     text-indent: 1rem;
 }
 
+.projectsBtn{
+    background-color: var(--accent-color1);
+    color: var(--font-color1);
+    border: none;
+    transition: background-color .5s ease-in-out;
+}
+
+.projectsBtn:hover{
+    background-color: var(--bg-color1);
+    transform: scale(1.2);
+}
+
+.projectsBtn:focus, .projectsBtn:active{
+    background-color: var(--bg-color1) !important;
+    box-shadow: none !important;
+}
+
 .resumeBtn, .viewSiteBtn, .sendFeedbackBtn{
     background-color: var(--accent-color2);
     color: var(--font-color1);
@@ -123,5 +140,9 @@ footer{
 
 .contact-link:hover{
     color: var(--font-color2);
+}
+
+.contact-link:focus{
+    box-shadow: none !important;
 }
 
