@@ -46,9 +46,18 @@ h4, .card-title{
     font-family: 'Indie Flower', cursive;
 }
 
+h6{
+    color: var(--accent-color1);
+    font-family: 'Raleway', sans-serif;
+}
+
 p{
     color: var(--bg-color2);
     font-family: 'Raleway', sans-serif;
+}
+
+ul{
+    color: var(--bg-color1);
 }
 
 header{
@@ -87,6 +96,10 @@ footer{
     width: 80%; /* on bigger devices width needs to be 50%*/
     line-height: 2;
     text-indent: 1rem;
+}
+
+.card{
+    height: 100%;
 }
 
 .projectsBtn{
