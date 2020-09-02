@@ -133,6 +133,12 @@ footer{
     
 }
 
+.viewSiteBtn:active, .viewSiteBtn:focus{
+    color: var(--font-color1) !important;
+    background-color: var(--bg-color1) !important;
+    box-shadow: none !important;
+}
+
 .resumeBtn:focus, .sendFeedbackBtn:focus{
     background-color: var(--accent-color2) !important;
     box-shadow: none !important;
